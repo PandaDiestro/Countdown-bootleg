@@ -10,6 +10,8 @@ let unity = 1;
 let counter = document.getElementById('counter')
 let now = false;
 
+console.log("Disclaimer: this is literally just a backwards timer that starts from a random place it totally should be used as just a joke and in no way serious stuff, that said i do not own the commercial concept of the dead countdown, only the code shown here.");
+
 counter.innerHTML = time_years + ' years : ' + time_days + ' days : ' + time_hours + ' hours <br>' + time_minutes + ' minutes : ' + time_seconds + ' seconds '
 
 //setTimeout(function(){time_years -= 1; time_days += 364; time_hours += 23; time_minutes += 59;  time_seconds += 60;}, 1000);
